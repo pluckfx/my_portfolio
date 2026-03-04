@@ -2,7 +2,7 @@
 
 ##Доступен под все устройства
 
-[Desktop screen](./images/Снимок.JPG)
+![Desktop screen](./images/Снимок.JPG)
 
 
-###[Ссылка на демо](https://phenomenal-pixie-1949ea.netlify.app/)
+[Ссылка на демо](https://phenomenal-pixie-1949ea.netlify.app/)
