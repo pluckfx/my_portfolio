@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__logo"><img src="./images/logo.png" alt=""></div>
+        <div class="menu">
+            <a href="#about" class="menu__item">Обо мне</a>
+            <a href="#tech" class="menu__item">Навыки</a>
+            <a href="#proj" class="menu__item">Проекты</a>
+            <a href="#exp" class="menu__item">Опыт</a>
+            <a href="#contact" class="menu__item">Контакты</a>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="intro container">
+            <div class="intro__text">
+                <h1 class="intro__title">Ermek <br> <span>Kyiazbekov</span></h1>
+                <div class="intro__subtitle">Frontend Developer / React | JS </div>
+                <div class="intro__desc">Создаю отзывчивые и быстрые интерфейсы, которые оживляют дизайн и работают безупречно на любом устройстве.</div>
+            </div>
+            <div class="intro__img"><img src="./images/intro.jpg" alt=""></div>
+        </section>
+        <section id="tech" class="tech container">
+            <div class="tech__title title">Навыки</div>
+            <div class="tech__wrap">
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/react.png" alt=""></div>
+                    <div class="tech__subtitle">React</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/js.png" alt=""></div>
+                    <div class="tech__subtitle">JavaScript</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/code.png" alt=""></div>
+                    <div class="tech__subtitle">HTML / CSS</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/git.png" alt=""></div>
+                    <div class="tech__subtitle">Git</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/figma.png" alt=""></div>
+                    <div class="tech__subtitle">Figma</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/photoshop.png" alt=""></div>
+                    <div class="tech__subtitle">Adobe Photoshop</div>
+                </div>
+                <div class="tech__block">
+                    <div class="tech__img"><img src="./images/backend.png" alt=""></div>
+                    <div class="tech__subtitle">Backend</div>
+                </div>
+            </div>
+        </section>
+        <section id="proj" class="proj container">
+            <div class="proj__title title">Мои проекты</div>
+            <div class="proj__wrap">
+                <div class="proj__block">
+                    <div class="proj__img"><img src="./images/proj1.JPG" alt=""></div>
+                    <div class="proj__text">
+                        <div class="proj__subtitle">Kinopoisk Gallery</div>
+                        <p class="proj__desc">React-приложение для просмотра топовых фильмов с API Кинопоиска. Реализована загрузка данных с нескольких страниц API, поиск по названию, клиентская фильтрация и пагинация. Во время загрузки отображаются skeleton-карточки. Проект демонстрирует работу с асинхронными запросами (fetch, Promise.all), React Hooks (useState, useEffect) и динамическим рендерингом списков.</p>
+                        <a href="https://github.com/pluckfx/my_kinopoisk" target="_blank" class="proj__link">
+                            <span>Подробнее</span>
+                            <img src="./images/link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="proj__block">
+                    <div class="proj__img"><img src="./images/proj2.JPG" alt=""></div>
+                    <div class="proj__text">
+                        <div class="proj__subtitle">Trello Clone</div>
+                        <p class="proj__desc">React-приложение для управления задачами в формате Kanban-доски. Реализовано создание и удаление колонок и карточек, редактирование названий, drag-and-drop между колонками и изменение их порядка. Проект демонстрирует работу с React Hooks (useState), управление состоянием, иммутабельное обновление данных и реализацию нативного drag-and-drop.</p>
+                        <a href="https://github.com/pluckfx/my-trello" target="_blank" class="proj__link">
+                            <span>Подробнее</span>
+                            <img src="./images/link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="proj__block">
+                    <div class="proj__img"><img src="./images/proj3.JPG" alt=""></div>
+                    <div class="proj__text">
+                        <div class="proj__subtitle">Aviasales UI Clone</div>
+                        <p class="proj__desc">React-приложение для отображения и фильтрации авиабилетов. В нём реализована сортировка по цене и времени в пути, фильтрация по количеству пересадок и динамическое обновление списка билетов в зависимости от выбранных параметров. Проект демонстрирует работу с React Hooks, управление состоянием, обработку массивов данных и построение интерфейса на основе логики фильтрации и сортировки.</p>
+                        <a href="https://github.com/pluckfx/avia" target="_blank" class="proj__link">
+                            <span>Подробнее</span>
+                            <img src="./images/link.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="exp" class="exp container">
+            <div class="exp__title title">Опыт работы</div>
+            <div class="exp__wrap">
+                <div class="exp__block">
+                    <div class="exp__img"><img src="./images/finca.png" alt=""></div>
+                    <div class="exp__subtitle">ЗАО FINCA Bank</div>
+                    <div class="exp__job">Ведущий специалист по работе с клиентами</div>
+                    <div class="exp__line"></div>
+                    <div class="exp__desc">
+                        - Консультация по продуктам банка <br>
+                        - Работа с автоматизированной банковской системой <br>
+                        - Документооборот и введение отчетности
+                        - Командировки
+                    </div>
+                    <div class="exp__date">Период: 25.12.2023 - 19.09.2025</div>
+                </div>
+                <div class="exp__block">
+                    <div class="exp__img"><img src="./images/school.png" alt=""></div>
+                    <div class="exp__subtitle">Профессиональный лицей</div>
+                    <div class="exp__job">Преподаватель</div>
+                    <div class="exp__line"></div>
+                    <div class="exp__desc">
+                        - Преподавание направления Веб - разработки <br>
+                        - Введение производственного обучения <br>
+                        - Документооборот и введение отчетности <br>
+                        - Сопровождение группы до выпуска
+                    </div>
+                    <div class="exp__date">Период: 22.09.2025 - по настоящее</div>
+                </div>
+                <div class="exp__block">
+                    <div class="exp__img"><img src="./images/freelancer.png" alt=""></div>
+                    <div class="exp__subtitle">Фриланс</div>
+                    <div class="exp__job">Фрилансер</div>
+                    <div class="exp__line"></div>
+                    <div class="exp__desc">
+                        - Выполнение частных заказов <br>
+                        - Разработка Frontend части <br>
+                        - Исправление багов <br>
+                        - Адаптивка
+                    </div>
+                    <div class="exp__date">Период: Иногда</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="footer container">
+        <div class="footer__content">
+            <div class="footer__info">
+                <div class="footer__logo">Ermek<span> Kyiazbekov</span></div>
+                <p class="footer__text">Frontend Developer, создающий удобные интерфейсы.</p>
+            </div>
+            
+            <div class="footer__socials">
+                <a href="https://t.me/pluckfx" class="footer__link" target="_blank">Telegram</a>
+                <a href="https://www.linkedin.com/in/ermek-kyiazbekov-85a92837b?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="footer__link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/pluckfx" class="footer__link" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <div class="footer__line"></div>
+            <p class="footer__copy">© 2026 Ermek Kyiazbekov. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
